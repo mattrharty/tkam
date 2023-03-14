@@ -42,18 +42,18 @@
 
 <body>
 	<div id="gameContainer">
-		<canvas id="unity-canvas" data-pixel-art="true"></canvas>
-		<script src="Build/0.1.loader.js"></script>
+		<canvas id="unity-canvas" data-pixel-art=""></canvas>
+		<script src="Build/0.2.loader.js"></script>
 		<script>
 			var canvas = document.querySelector("#unity-canvas");
 			var config = {
-				dataUrl: "Build/0.1.data.br",
-				frameworkUrl: "Build/0.1.framework.js.br",
-				codeUrl: "Build/0.1.wasm.br",
+				dataUrl: "Build/0.2.data.br",
+				frameworkUrl: "Build/0.2.framework.js.br",
+				codeUrl: "Build/0.2.wasm.br",
 				streamingAssetsUrl: "StreamingAssets",
 				companyName: "PIXLbound",
 				productName: "ELA TKAM Project",
-				productVersion: "0.1",
+				productVersion: "0.2",
 			};
 			var scaleToFit;
 			try {
